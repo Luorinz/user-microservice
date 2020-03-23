@@ -3,15 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8712fc21-606e-43ab-aa40-84895bf5c9f1" name="Default Changelist" comment="Merge branch 'develop' of https://github.com/climatetree/user-microservice into anda&#10;&#10;# Conflicts:&#10;#&#9;.gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-    <list default="true" id="2dcc05bb-db9b-4484-b33a-4226ed4f3de7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/climatetree/user/config/JwtTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/climatetree/user/config/JwtTokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/climatetree/user/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/climatetree/user/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/climatetree/user/controller/JwtAuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/climatetree/user/controller/JwtAuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-local.properties" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +132,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.7456847" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -174,25 +170,6 @@
       <command value="mvn " />
       <command value="mvn spring-boot:build-info" />
       <command value="mvn spring-boot:run" />
-    </option>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.MicroserviceApplication">
@@ -370,7 +347,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -448,90 +427,90 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="215" y="26" key="CommitChangelistDialog2/0.0.1440.900/-2560.0.2560.1080@0.0.1440.900" timestamp="1582429965684" />
-    <state width="1169" height="301" key="GridCell.Tab.0.bottom" timestamp="1584232371084">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1237" height="245" key="GridCell.Tab.0.bottom" timestamp="1584997043599">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1238" height="185" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583949776479" />
     <state width="1169" height="301" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584232371084" />
     <state width="2518" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-2560.0.2560.1080@-2560.0.2560.1080" timestamp="1582436160533" />
     <state width="1237" height="218" key="GridCell.Tab.0.bottom/0.0.1440.900/-2560.0.2560.1080@0.0.1440.900" timestamp="1584146838908" />
     <state width="1237" height="218" key="GridCell.Tab.0.bottom/0.0.1440.900/-2560.23.2560.1057@0.0.1440.900" timestamp="1584146525350" />
-    <state width="1398" height="162" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583608812831" />
+    <state width="1237" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584997043599" />
     <state width="1238" height="185" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1583949583457" />
     <state width="1398" height="162" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1583608746158" />
     <state width="1237" height="218" key="GridCell.Tab.0.bottom/0.23.1440.877/-2560.23.2560.986@0.23.1440.877" timestamp="1584125924812" />
-    <state width="1169" height="301" key="GridCell.Tab.0.center" timestamp="1584232371083">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1237" height="245" key="GridCell.Tab.0.center" timestamp="1584997043597">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1238" height="185" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583949776478" />
     <state width="1169" height="301" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584232371083" />
     <state width="2518" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-2560.0.2560.1080@-2560.0.2560.1080" timestamp="1582436160530" />
     <state width="1237" height="218" key="GridCell.Tab.0.center/0.0.1440.900/-2560.0.2560.1080@0.0.1440.900" timestamp="1584146838905" />
     <state width="1237" height="218" key="GridCell.Tab.0.center/0.0.1440.900/-2560.23.2560.1057@0.0.1440.900" timestamp="1584146525343" />
-    <state width="1398" height="162" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583608812830" />
+    <state width="1237" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584997043597" />
     <state width="1238" height="185" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1583949583454" />
     <state width="1398" height="162" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1583608746157" />
     <state width="1237" height="218" key="GridCell.Tab.0.center/0.23.1440.877/-2560.23.2560.986@0.23.1440.877" timestamp="1584125924809" />
-    <state width="1169" height="301" key="GridCell.Tab.0.left" timestamp="1584232371083">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1237" height="245" key="GridCell.Tab.0.left" timestamp="1584997043596">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1238" height="185" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583949776478" />
     <state width="1169" height="301" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584232371083" />
     <state width="2518" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-2560.0.2560.1080@-2560.0.2560.1080" timestamp="1582436160528" />
     <state width="1237" height="218" key="GridCell.Tab.0.left/0.0.1440.900/-2560.0.2560.1080@0.0.1440.900" timestamp="1584146838904" />
     <state width="1237" height="218" key="GridCell.Tab.0.left/0.0.1440.900/-2560.23.2560.1057@0.0.1440.900" timestamp="1584146525340" />
-    <state width="1398" height="162" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583608812829" />
+    <state width="1237" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584997043596" />
     <state width="1398" height="162" key="GridCell.Tab.0.left/0.0.1440.900@0.23.1440.810" timestamp="1583606684803" />
     <state width="1238" height="185" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1583949583452" />
     <state width="1398" height="162" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1583608746157" />
     <state width="1237" height="218" key="GridCell.Tab.0.left/0.23.1440.877/-2560.23.2560.986@0.23.1440.877" timestamp="1584125924807" />
-    <state width="1169" height="301" key="GridCell.Tab.0.right" timestamp="1584232371083">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1237" height="245" key="GridCell.Tab.0.right" timestamp="1584997043598">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1238" height="185" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583949776479" />
     <state width="1169" height="301" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584232371083" />
     <state width="2518" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-2560.0.2560.1080@-2560.0.2560.1080" timestamp="1582436160531" />
     <state width="1237" height="218" key="GridCell.Tab.0.right/0.0.1440.900/-2560.0.2560.1080@0.0.1440.900" timestamp="1584146838907" />
     <state width="1237" height="218" key="GridCell.Tab.0.right/0.0.1440.900/-2560.23.2560.1057@0.0.1440.900" timestamp="1584146525345" />
-    <state width="1398" height="162" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583608812831" />
+    <state width="1237" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584997043598" />
     <state width="1238" height="185" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1583949583454" />
     <state width="1398" height="162" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1583608746158" />
     <state width="1237" height="218" key="GridCell.Tab.0.right/0.23.1440.877/-2560.23.2560.986@0.23.1440.877" timestamp="1584125924811" />
-    <state width="1169" height="301" key="GridCell.Tab.1.bottom" timestamp="1584232371084">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1237" height="245" key="GridCell.Tab.1.bottom" timestamp="1584997043601">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1169" height="301" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584232371084" />
     <state width="2518" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900/-2560.0.2560.1080@-2560.0.2560.1080" timestamp="1582435035387" />
     <state width="1237" height="218" key="GridCell.Tab.1.bottom/0.0.1440.900/-2560.0.2560.1080@0.0.1440.900" timestamp="1584146838911" />
     <state width="1237" height="218" key="GridCell.Tab.1.bottom/0.0.1440.900/-2560.23.2560.1057@0.0.1440.900" timestamp="1584146525362" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582778893103" />
+    <state width="1237" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584997043601" />
     <state width="1237" height="218" key="GridCell.Tab.1.bottom/0.23.1440.877/-2560.23.2560.986@0.23.1440.877" timestamp="1584125924815" />
-    <state width="1169" height="301" key="GridCell.Tab.1.center" timestamp="1584232371084">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1237" height="245" key="GridCell.Tab.1.center" timestamp="1584997043600">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1169" height="301" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584232371084" />
     <state width="2518" height="304" key="GridCell.Tab.1.center/0.0.1440.900/-2560.0.2560.1080@-2560.0.2560.1080" timestamp="1582435035386" />
     <state width="1237" height="218" key="GridCell.Tab.1.center/0.0.1440.900/-2560.0.2560.1080@0.0.1440.900" timestamp="1584146838909" />
     <state width="1237" height="218" key="GridCell.Tab.1.center/0.0.1440.900/-2560.23.2560.1057@0.0.1440.900" timestamp="1584146525355" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582778893101" />
+    <state width="1237" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1584997043600" />
     <state width="1237" height="218" key="GridCell.Tab.1.center/0.23.1440.877/-2560.23.2560.986@0.23.1440.877" timestamp="1584125924814" />
-    <state width="1169" height="301" key="GridCell.Tab.1.left" timestamp="1584232371084">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1237" height="245" key="GridCell.Tab.1.left" timestamp="1584997043599">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1169" height="301" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584232371084" />
     <state width="2518" height="304" key="GridCell.Tab.1.left/0.0.1440.900/-2560.0.2560.1080@-2560.0.2560.1080" timestamp="1582435035385" />
     <state width="1237" height="218" key="GridCell.Tab.1.left/0.0.1440.900/-2560.0.2560.1080@0.0.1440.900" timestamp="1584146838909" />
     <state width="1237" height="218" key="GridCell.Tab.1.left/0.0.1440.900/-2560.23.2560.1057@0.0.1440.900" timestamp="1584146525353" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582778893101" />
+    <state width="1237" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1584997043599" />
     <state width="1237" height="218" key="GridCell.Tab.1.left/0.23.1440.877/-2560.23.2560.986@0.23.1440.877" timestamp="1584125924813" />
-    <state width="1169" height="301" key="GridCell.Tab.1.right" timestamp="1584232371084">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1237" height="245" key="GridCell.Tab.1.right" timestamp="1584997043600">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1169" height="301" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584232371084" />
     <state width="2518" height="304" key="GridCell.Tab.1.right/0.0.1440.900/-2560.0.2560.1080@-2560.0.2560.1080" timestamp="1582435035386" />
     <state width="1237" height="218" key="GridCell.Tab.1.right/0.0.1440.900/-2560.0.2560.1080@0.0.1440.900" timestamp="1584146838910" />
     <state width="1237" height="218" key="GridCell.Tab.1.right/0.0.1440.900/-2560.23.2560.1057@0.0.1440.900" timestamp="1584146525360" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582778893102" />
+    <state width="1237" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1584997043600" />
     <state width="1237" height="218" key="GridCell.Tab.1.right/0.23.1440.877/-2560.23.2560.986@0.23.1440.877" timestamp="1584125924814" />
     <state width="1275" height="240" key="GridCell.Tab.2.bottom" timestamp="1583261532425">
       <screen x="0" y="0" width="1366" height="728" />
@@ -558,11 +537,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="431" y="174" key="MultipleFileMergeDialog/0.0.1440.900/-2560.0.2560.1080@0.0.1440.900" timestamp="1582429958878" />
-    <state x="197" y="0" key="SettingsEditor" timestamp="1583185318562">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="208" y="33" key="SettingsEditor" timestamp="1584996894764">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="197" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583185318562" />
-    <state x="208" y="33" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582779382086" />
+    <state x="208" y="33" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1584996894764" />
     <state width="82" height="482" key="SqlResolveConfigurable" timestamp="1582656077285">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
